@@ -31,8 +31,8 @@ namespace NunitProject
             driver.Navigate().GoToUrl("https://www.altinn.no/");
             driver.FindElement(By.XPath("//button[@type='button' and @class='a-btn a-btn-border']")).Click();
             driver.FindElement(By.Id("BankIDMobil")).Click();
-            driver.FindElement(By.Id("idporten.input.CONTACTINFO_MOBILE")).SendKeys("97380179");
-            driver.FindElement(By.Id("idporten.input.BIRTHDATE")).SendKeys("050692");
+            driver.FindElement(By.Id("idporten.input.CONTACTINFO_MOBILE")).SendKeys("MobileNumber");
+            driver.FindElement(By.Id("idporten.input.BIRTHDATE")).SendKeys("DOB");
             driver.FindElement(By.Id("nextbtn")).Click();
 
             //driver.FindElement(By.ClassName("ai ai-private-circle-big a-personSwitcher-icon a-js-onboardingTarget-1")).Click();
