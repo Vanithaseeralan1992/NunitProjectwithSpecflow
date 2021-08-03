@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace NunitProject.Pages
-{   /*public class Calculator
+{   public class Calculator
     {
 
         public int firstnumber { get; set; }
@@ -19,7 +19,7 @@ namespace NunitProject.Pages
             return firstnumber - secondnumber;
         }
 
-    }*/
+    }
 
     public class EmployeeDetails
     {
